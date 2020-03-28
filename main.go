@@ -5,8 +5,8 @@ package tidy
 #cgo CFLAGS: -I/usr/include/tidy
 #cgo LDFLAGS: -ltidy -L/usr/local/lib
 #include <tidy.h>
-#include <buffio.h>
-#include <errno.h>
+#include <tidybuffio.h>
+#include <tidyerrno.h>
 */
 import "C"
 import (
